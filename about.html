@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Biz haqimizda — GreenMarket</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="site-header"></div>
+    <main class="container page-wrap">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Bosh sahifa</a></li>
+          <li class="breadcrumb-item active">Biz haqimizda</li>
+        </ol>
+      </nav>
+      <section class="about-hero row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="eyebrow">Bizning hikoyamiz</span>
+          <h1>Yaxshi mahsulot — yaxshi hayotning boshlanishi</h1>
+          <p class="lead-muted">
+            GreenMarket — kundalik xaridlarni oson, qulay va yoqimli qilishga
+            intiladigan onlayn bozor loyihasi.
+          </p>
+          <p>
+            Biz mijozlarga yangi mahsulotlarni tanlash, kerakli ma’lumotlarni
+            ko‘rish va buyurtma berish uchun sodda raqamli makon yaratishni
+            maqsad qilganmiz. Har bir bo‘lim sifat, ishonch va qulaylik g‘oyasi
+            atrofida tuzilgan.
+          </p>
+          <a class="btn btn-green" href="products.html"
+            >Mahsulotlarni ko‘rish</a
+          >
+        </div>
+        <div class="col-lg-6">
+          <img
+            class="about-image"
+            src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1000&q=85"
+            alt="Yangi mahsulotlar bozori"
+          />
+        </div>
+      </section>
+      <section class="section-pad">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Biz uchun muhim</span>
+            <h2>Qadriyatlarimiz</h2>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="benefit">
+              <span><i class="bi bi-stars"></i></span>
+              <h3>Sifat</h3>
+              <p>Mahsulot tanlashda yangilik va sifatga e’tibor berish.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="benefit">
+              <span><i class="bi bi-shield-check"></i></span>
+              <h3>Ishonch</h3>
+              <p>Mahsulot va buyurtma ma’lumotlarini tushunarli ko‘rsatish.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="benefit">
+              <span><i class="bi bi-recycle"></i></span>
+              <h3>Mas’uliyat</h3>
+              <p>Tabiatga e’tiborli tanlovlarni targ‘ib qilish.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-pad pt-0">
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <span class="eyebrow">Bog‘lanish</span>
+            <h2>Biz bilan aloqada bo‘ling</h2>
+            <p class="lead-muted">
+              Savolingiz yoki taklifingiz bormi? Quyidagi formani to‘ldiring.
+            </p>
+            <p>
+              <i class="bi bi-telephone text-green me-2"></i> +998 90 123 45 67
+            </p>
+            <p>
+              <i class="bi bi-envelope text-green me-2"></i> info@greenmarket.uz
+            </p>
+            <p>
+              <i class="bi bi-geo-alt text-green me-2"></i> Toshkent,
+              O‘zbekiston
+            </p>
+          </div>
+          <div class="col-lg-7">
+            <form id="contact-form" class="surface p-4">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label">Ism-familiya</label
+                  ><input
+                    class="form-control"
+                    required
+                    placeholder="Ismingiz"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label">Elektron pochta</label
+                  ><input
+                    type="email"
+                    class="form-control"
+                    required
+                    placeholder="email@example.com"
+                  />
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Mavzu</label
+                  ><input
+                    class="form-control"
+                    required
+                    placeholder="Xabar mavzusi"
+                  />
+                </div>
+                <div class="col-12">
+                  <label class="form-label">Xabaringiz</label
+                  ><textarea
+                    class="form-control"
+                    rows="4"
+                    required
+                    placeholder="Xabaringizni yozing..."
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-green" type="submit">
+                    Xabar yuborish <i class="bi bi-send"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="pb-5">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Yordam</span>
+            <h2>Ko‘p so‘raladigan savollar</h2>
+          </div>
+        </div>
+        <div class="accordion" id="faq">
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button"
+                data-bs-toggle="collapse"
+                data-bs-target="#q1"
+              >
+                Buyurtma qanday beriladi?
+              </button>
+            </h3>
+            <div
+              id="q1"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#faq"
+            >
+              <div class="accordion-body">
+                Mahsulotlar sahifasidan kerakli mahsulotlarni tanlang,
+                savatchaga qo‘shing va buyurtma formasini to‘ldiring.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#q2"
+              >
+                Yetkazib berish narxi qancha?
+              </button>
+            </h3>
+            <div
+              id="q2"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faq"
+            >
+              <div class="accordion-body">
+                Namuna loyiha uchun yetkazib berish narxi 15 000 so‘m qilib
+                ko‘rsatilgan. Haqiqiy xizmatda bu qiymat sozlanishi mumkin.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                data-bs-toggle="collapse"
+                data-bs-target="#q3"
+              >
+                Saytda ro‘yxatdan o‘tish mumkinmi?
+              </button>
+            </h3>
+            <div
+              id="q3"
+              class="accordion-collapse collapse"
+              data-bs-parent="#faq"
+            >
+              <div class="accordion-body">
+                Ha. Yuqoridagi “Kirish” tugmasini bosib, kirish yoki ro‘yxatdan
+                o‘tish oynasini ochishingiz mumkin.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <div id="global-modals"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
